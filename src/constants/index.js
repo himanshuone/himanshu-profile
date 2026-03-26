@@ -8,7 +8,6 @@ import {
   html,
   css,
   reactjs,
-  
   redux,
   tailwind,
   nodejs,
@@ -24,7 +23,6 @@ import {
   jobit,
   tripguide,
   threejs,
-  
 } from "../assets";
 // import image from "../"
 
@@ -41,23 +39,24 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Express",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Django",
     icon: backend,
   },
   {
-    title: "Photographer",
+    title: "Tailwind",
     icon: creator,
   },
 ];
@@ -75,15 +74,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
   },
-  
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,7 +88,7 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
- 
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -105,61 +101,42 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  
-  
 ];
 
 const experiences = [
   {
-    title: "C learner",
+    title: "Low Level Language",
     company_name: "Self Projects",
     icon: backend,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2021 - 2023",
     points: [
-      "Developing and maintaining web applications using C.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Python Learner",
-    company_name: "Self Projects",
-    icon: backend,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2023",
-    points: [
-      "Developing and maintaining web applications using Python and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Developing and maintaining experimental system-level scripts",
+      "Collaborated with peers to design and develop multiple products, aligning features with specific user needs and use cases."
+      ],
   },
   {
     title: "Django Developer",
-    company_name: "Freelacing Projects",
+    company_name: "Self and Freelancing",
     icon: backend,
-    iconBg: "#383E56",
-    date: "Jan 2023 - Jan 2024",
+    iconBg: "#E6DEDD",
+    date: "Dec 2022 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using Django and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Created and deployed real-world projects such as portfolio websites for wedding companies and NGOs."
+      ,"enhancing development skills through hands-on learning and problem-solving on these problems."],
   },
+  
   {
-    title: "Full stack Developer",
+    title: "Full Stack Developer",
     company_name: "Self Learner",
     icon: backend,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js, Next.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using React.js, Express.js and other related technologies.",
+          "Implementing responsive design and ensuring cross-browser compatibility.",
+          "Created Multiple Projects solving real life problems such as N+1 Problem"
+ 
     ],
   },
 ];
@@ -171,7 +148,8 @@ const testimonials = [
     name: "Lokesh Pandit",
     designation: "CEO",
     company: "Funckyfusionmedia",
-    image: "https://drive.google.com/file/d/1ZXp9d5L-EfQNh7Fp383G-qth_6U5UTAw/view?usp=drive_link",
+    image:
+      "https://i.postimg.cc/PCs5kbTt/4BD6725D-7E0B-4EDB-BF16-1128A403819C.jpg",
   },
   {
     testimonial:
@@ -179,7 +157,7 @@ const testimonials = [
     name: "Anurag Pal",
     designation: "COO",
     company: "Opposite Trend",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFJvk6JMVKRsw/profile-displayphoto-scale_200_200/B56ZlJT9_zI4AY-/0/1757871600680?e=2147483647&v=beta&t=wyjorT0Wvo4eVn3lrI_JGMyDTNupZnVeDlU5MgesIzw",
   },
   {
     testimonial:
@@ -187,22 +165,22 @@ const testimonials = [
     name: "Chirag Patil",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://i.postimg.cc/MXq0zRZy/IMG-1344.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "iSeeThrough",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created “ISeeThrough,” a movie discovery web application integrated with external APIs, allowing users to search, explore, and track watched movies through a personalized watch history system.",
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sqlite3",
         color: "green-text-gradient",
       },
       {
@@ -214,10 +192,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "UpYou",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+"Engineered “UpYou,” a full-stack productivity web application incorporating task management, Pomodoro technique, and habit tracking to improve user productivity and consistency." ,   tags: [
       {
         name: "react",
         color: "blue-text-gradient",
